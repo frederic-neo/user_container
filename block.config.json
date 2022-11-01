@@ -1,0 +1,13 @@
+{
+  "name": "user_container",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/frederic-neo/user_container",
+    "ssh": "git@github.com:frederic-neo/user_container.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
